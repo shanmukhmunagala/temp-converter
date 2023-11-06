@@ -1,0 +1,58 @@
+/* Basic styling for the temperature converter */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    color: #333;
+}
+
+#tempConverter {
+    background-color: #fff;
+    
+    padding: 60px ;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+input[type="number"] {
+    width: 100%;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    font-size: medium;
+}
+
+select {
+    width: 110%;
+    padding: 20px 30px;
+    border: 1px solid #ccc;
+    
+    border-radius: 5px;
+    margin-bottom: 10px;
+    font-size:large ;
+}
+
+button {
+    background-color:rgb(47, 188, 47);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 20px 30px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #f80808;
+}
+
+#result {
+    margin-top: 20px;
+    font-weight: bold;
+}
